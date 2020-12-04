@@ -3,11 +3,11 @@
     padding: 0;
     margin: 0;
 }
-
+/* main body tag with background color of entire page */
 body {
     background-color: #d9dcd6;
 }
-
+/* below header and nav link layout */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -26,7 +26,7 @@ header h1 .seo {
     display: inline-block;
     font-size: 48px;
 }
-
+/* layout of the nav tag inside the header formating for nav links */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -43,16 +43,19 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/* end of header and nav layout */
 
+/* below are all link colors  */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* below is layout for paragraph tags */
 p {
     font-size: 16px;
 }
-
+/* below is layout of main image below header */
 .hero {
     height: 800px;
     width: 100%;
@@ -72,12 +75,14 @@ p {
     margin-left: 25px;
 }
 
+/* below is section tag layout main info of page left side of site */
 section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* below is the layout of the aside tag displayed on right side of site */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -100,13 +105,14 @@ aside {
     text-align: center;
 }
 
+/* below is layout for images inside of the aside tag */
 .benefit-lead img, .benefit-brand img, .benefit-cost img   {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
+/* below is the layout for the images inside of section tag  */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
